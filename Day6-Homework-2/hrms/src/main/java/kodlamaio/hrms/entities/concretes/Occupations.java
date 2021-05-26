@@ -18,10 +18,10 @@ public class Occupations {
     private int Id;
     
     @Column(name = "occupationName")
-	private int name;
+	private String name;
 	
 	
-	public Occupations(int id, int name) {
+	public Occupations(int id, String name) {
 		super();
 		Id = id;
 		this.name = name;
